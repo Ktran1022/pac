@@ -1,0 +1,15 @@
+
+[General]
+loglevel = notify
+
+[Proxy]
+jp = http, 141.164.40.74, 20075, aloproxy-no886, IUmltJjL5YfGDdMN
+
+[Rule]
+DOMAIN-SUFFIX,google.com,jp
+DOMAIN-SUFFIX,youtube.com,jp
+DOMAIN-SUFFIX,tiktok.com,jp
+DOMAIN-SUFFIX,tiktokcdn.com,jp
+DOMAIN-KEYWORD,tiktok,jp
+DOMAIN-KEYWORD,proxy,jp
+FINAL,DIRECT
